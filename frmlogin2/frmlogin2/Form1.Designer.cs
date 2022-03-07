@@ -65,6 +65,7 @@ namespace frmlogin2
             // 
             this.txtpassword.Location = new System.Drawing.Point(315, 149);
             this.txtpassword.Name = "txtpassword";
+            this.txtpassword.PasswordChar = '*';
             this.txtpassword.Size = new System.Drawing.Size(227, 22);
             this.txtpassword.TabIndex = 3;
             // 
@@ -76,6 +77,7 @@ namespace frmlogin2
             this.btnlogin.TabIndex = 4;
             this.btnlogin.Text = "đăng nhập";
             this.btnlogin.UseVisualStyleBackColor = true;
+            this.btnlogin.Click += new System.EventHandler(this.btnlogin_Click);
             // 
             // Form1
             // 
