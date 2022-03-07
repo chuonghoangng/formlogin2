@@ -70,11 +70,11 @@ namespace frmlogin2
             // 
             // btnlogin
             // 
-            this.btnlogin.Location = new System.Drawing.Point(450, 190);
+            this.btnlogin.Location = new System.Drawing.Point(432, 190);
             this.btnlogin.Name = "btnlogin";
-            this.btnlogin.Size = new System.Drawing.Size(75, 23);
+            this.btnlogin.Size = new System.Drawing.Size(93, 23);
             this.btnlogin.TabIndex = 4;
-            this.btnlogin.Text = "login";
+            this.btnlogin.Text = "đăng nhập";
             this.btnlogin.UseVisualStyleBackColor = true;
             // 
             // Form1
